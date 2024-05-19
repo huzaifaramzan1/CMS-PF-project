@@ -78,7 +78,7 @@ void showEnrolledCourses(string username) {
 }
 
 void addDrop() {
-    // Implementation for adding and dropping courses
+  
 }
 
 void fee() {
@@ -111,7 +111,7 @@ void libRoom() {
     int timeChoice;
     int roomChoice;
     bool roomsFree[3] = {false, false, false};
-    bool anyRoomFree = false; // Move initialization here
+    bool anyRoomFree = false; 
 
     cout << "Which time do you want to book a library room:" << endl;
     cout << "1. 12:00 to 2:00 pm" << endl
@@ -350,7 +350,7 @@ void takeAttendance() {
 
 void seeScheduledLectures() {
     cout << "Scheduled Lectures:" << endl;
-    timetable(0); // Assuming the same timetable function to show the schedule
+    timetable(0);//idhar assume kia h maine variabke
 }
 
 void uploadCourseMaterial() {
@@ -414,10 +414,10 @@ int main() {
     User student3 = {"student3", "password3", false, {"PF", "DLD", "Expository Writing", "Stats and Probability", "DLD Lab"}, 5, {"PF = C", "DLD = B", "Expository Writing  = A+", "Stats = C-", "DLD Lab = B+"}, 2.8};
     User student4 = {"student4", "password4", false, {"PF", "DLD", "Expository Writing", "Stats and Probability", "DLD Lab"}, 5, {"PF = A+", "DLD = A", "Expository Writing  = A+", "Stats = A-", "DLD Lab = A+"}, 3.85};
 
-    // Predefined teacher account
+    // ye teacher predefined haun
     User teacher = {"teacher", "teacherpassword", false, {}, 0};
 
-    // Add predefined users to the user array
+    //ye predefined users hai for our ease
     users[numUsers++] = student1;
     users[numUsers++] = student2;
     users[numUsers++] = student3;
